@@ -32,13 +32,13 @@ insert.createSingleUser.proportion=0.1
 insert.createAndConnectSingleLike.proportion=0.3
 insert.createAndConnectSingleComment.proportion=0.6
 
-readproportion=0.7
+readproportion=0.8
 read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_event]
 read.userByIdWithPostsAndCommentsAndAuthors.proportion=0.1
 read.groupByIdWithMemberIds.proportion=0.4
 read.postByIdWithFirstTenComments.proportion=0.5
 
-updateproportion=0.1
+updateproportion=0
 update.queries=[updateUserByIdSetFriendWith_user,updatePostByIdSetContent_post,updateCommentByIdSetContent_comment]
 update.updateUserByIdSetFriendWith.proportion=0.1
 update.updatePostByIdSetContent.proportion=0.3
@@ -46,10 +46,10 @@ update.updateCommentByIdSetContent.proportion=0.6
 
 # Header
 requestdistribution=uniform
-operationcount=1000000
-maxexecutiontime=36000
+operationcount=10000000
+maxexecutiontime=300
 
 # System Specific Properties
 db=com.yahoo.ycsb.webservice.prisma.social.PrismaClient
-http.endpoint=http://localhost:4466/
+http.endpoint=http://78.46.186.210:4466/
 headers=Content-Type application/json

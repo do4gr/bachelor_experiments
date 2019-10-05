@@ -46,10 +46,10 @@ update.updateCommentByIdSetContent.proportion=0.6
 
 # Header
 requestdistribution=uniform
-operationcount=1000000
+operationcount=10000000
 maxexecutiontime=36000
 
 # System Specific Properties
 db=com.yahoo.ycsb.webservice.prisma.social.PrismaClient
-http.endpoint=http://localhost:4466/
+http.endpoint=http://78.46.186.210:4466/
 headers=Content-Type application/json

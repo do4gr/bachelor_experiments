@@ -48,7 +48,7 @@ update.updateCommentByIdSetContent.proportion=0.6
 
 # Header
 requestdistribution=uniform
-operationcount=10000
+operationcount=10000000
 maxexecutiontime=36000
 
 # System Specific Properties
