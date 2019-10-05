@@ -1,5 +1,7 @@
 # bachelor_experiments
 
+
+```
 ├── README.md
 ├── load_phase
 │   ├── neo4j
@@ -37,3 +39,4 @@
         ├── workload_social_prisma_update_only_run1.log
         ├── workload_social_prisma_update_only_run2.log
         └── workload_social_prisma_update_only_run3.log
+ ```
