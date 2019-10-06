@@ -53,5 +53,5 @@ maxexecutiontime=36000
 
 # System Specific Properties
 db=com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient
-http.endpoint=http://localhost:7474/graphql/
+http.endpoint=http://78.46.186.209:7474/graphql/
 headers=Content-Type application/json
