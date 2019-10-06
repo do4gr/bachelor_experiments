@@ -35,8 +35,8 @@ insert.createAndConnectSingleComment.proportion=0.6
 readproportion=1
 read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_post]
 read.userByIdWithPostsAndCommentsAndAuthors.proportion=0
-read.groupByIdWithMemberIds.proportion=0.5
-read.postByIdWithFirstTenComments.proportion=0.5
+read.groupByIdWithMemberIds.proportion=1
+read.postByIdWithFirstTenComments.proportion=0
 
 updateproportion=0
 update.queries=[updateUserByIdSetFriendWith_user,updatePostByIdSetContent_post,updateCommentByIdSetContent_comment]
