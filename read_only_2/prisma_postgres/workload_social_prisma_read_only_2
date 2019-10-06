@@ -3,12 +3,10 @@ exporter=com.yahoo.ycsb.measurements.exporter.TextMeasurementsExporter
 threadcount=20
 log.enable=false
 
-
 # Measurement Properties
 measurementtype=hdrhistogram
 hdrhistogram.percentiles=50,90,95,99
 histogram.buckets=1
-
 
 # Workload Package Properties
 workload=com.yahoo.ycsb.workloads.GraphQLSocialWorkload
@@ -36,8 +34,8 @@ insert.createAndConnectSingleComment.proportion=0.6
 
 readproportion=1
 read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_post]
-read.userByIdWithPostsAndCommentsAndAuthors.proportion=0.1
-read.groupByIdWithMemberIds.proportion=0.4
+read.userByIdWithPostsAndCommentsAndAuthors.proportion=0
+read.groupByIdWithMemberIds.proportion=0.5
 read.postByIdWithFirstTenComments.proportion=0.5
 
 updateproportion=0
@@ -52,6 +50,6 @@ operationcount=10000000
 maxexecutiontime=100
 
 # System Specific Properties
-db=com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient
-http.endpoint=http://localhost:7474/graphql/
+db=com.yahoo.ycsb.webservice.prisma.social.PrismaClient
+http.endpoint=http://78.46.186.210:4466/
 headers=Content-Type application/json

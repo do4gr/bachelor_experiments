@@ -49,7 +49,7 @@ update.updateCommentByIdSetContent.proportion=0.6
 # Header
 requestdistribution=uniform
 operationcount=10000000
-maxexecutiontime=300
+maxexecutiontime=100
 
 # System Specific Properties
 db=com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient
