@@ -32,13 +32,13 @@ insert.createSingleUser.proportion=0.1
 insert.createAndConnectSingleLike.proportion=0.3
 insert.createAndConnectSingleComment.proportion=0.6
 
-readproportion=0.8
+readproportion=0.6
 read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_event]
 read.userByIdWithPostsAndCommentsAndAuthors.proportion=0.1
 read.groupByIdWithMemberIds.proportion=0.4
 read.postByIdWithFirstTenComments.proportion=0.5
 
-updateproportion=0
+updateproportion=0.2
 update.queries=[updateUserByIdSetFriendWith_user,updatePostByIdSetContent_post,updateCommentByIdSetContent_comment]
 update.updateUserByIdSetFriendWith.proportion=0.1
 update.updatePostByIdSetContent.proportion=0.3
