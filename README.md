@@ -1,5 +1,6 @@
 # bachelor_experiments
 
+This repository contains the workload parameter files as they were configured for the experiments as well as the log files with the raw results.
 
 ```
 ├── README.md
