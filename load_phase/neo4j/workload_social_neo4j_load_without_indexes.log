@@ -1,0 +1,180 @@
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java -cp ./neo4j/src/main/java/com/yahoo/ycsb/webservice/neo4j/target.classes:/root/bachelor_toolkit/neo4j/conf:/root/bachelor_toolkit/neo4j/target/neo4j-binding-0.17.0-SNAPSHOT.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar:/root/.m2/repository/org/glassfish/hk2/external/javax.inject/2.2.0/javax.inject-2.2.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/root/.m2/repository/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.4/jackson-core-asl-1.9.4.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-server/2.6/jersey-server-2.6.jar:/root/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-api/2.2.0/hk2-api-2.2.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:/root/.m2/repository/org/glassfish/hk2/hk2-locator/2.2.0/hk2-locator-2.2.0.jar:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.4/jackson-mapper-asl-1.9.4.jar:/root/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.6/jersey-guava-2.6.jar:/root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.2.0/aopalliance-repackaged-2.2.0.jar:/root/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/root/bachelor_toolkit/core/target/core-0.17.0-SNAPSHOT.jar:/root/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-client/2.6/jersey-client-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/glassfish/hk2/hk2-utils/2.2.0/hk2-utils-2.2.0.jar:/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/jersey-container-servlet-core-2.6.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.6/jersey-common-2.6.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient -s -p table=user -p recordcount=200000 -P ./workloads/workload_social_neo4j -load
+Command line: -db com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient -s -p table=user -p recordcount=200000 -P ./workloads/workload_social_neo4j -load
+YCSB Client 0.17.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 36000 secs
+2019-10-06 15:38:14:959 0 sec: 0 operations; est completion in 0 second 
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2019-10-06 15:38:24:836 10 sec: 16281 operations; 1628.1 current ops/sec; est completion in 1 minute [INSERT: Count=16287, Max=136703, Min=1475, Avg=11743.5, 90=23791, 99=48575, 99.9=126719, 99.99=136447] 
+2019-10-06 15:38:34:836 20 sec: 37571 operations; 2129 current ops/sec; est completion in 1 minute [INSERT: Count=21286, Max=152831, Min=1426, Avg=9376.82, 90=14839, 99=37631, 99.9=134271, 99.99=147967] 
+2019-10-06 15:38:44:836 30 sec: 57734 operations; 2016.3 current ops/sec; est completion in 1 minute [INSERT: Count=20163, Max=130623, Min=1658, Avg=9914.09, 90=16159, 99=41887, 99.9=112511, 99.99=128639] 
+2019-10-06 15:38:54:836 40 sec: 78954 operations; 2122 current ops/sec; est completion in 1 minute [INSERT: Count=21218, Max=103615, Min=1607, Avg=9415.62, 90=15375, 99=40159, 99.9=82047, 99.99=103039] 
+2019-10-06 15:39:04:836 50 sec: 101021 operations; 2206.7 current ops/sec; est completion in 49 seconds [INSERT: Count=22069, Max=67199, Min=1657, Avg=9059.63, 90=15007, 99=39391, 99.9=55551, 99.99=65087] 
+2019-10-06 15:39:14:836 60 sec: 122203 operations; 2118.2 current ops/sec; est completion in 39 seconds [INSERT: Count=21182, Max=77375, Min=1693, Avg=9437.12, 90=15767, 99=39327, 99.9=69951, 99.99=76671] 
+2019-10-06 15:39:24:836 70 sec: 142918 operations; 2071.5 current ops/sec; est completion in 28 seconds [INSERT: Count=20713, Max=99135, Min=1661, Avg=9645.78, 90=16735, 99=38111, 99.9=59071, 99.99=94847] 
+2019-10-06 15:39:34:836 80 sec: 164636 operations; 2171.8 current ops/sec; est completion in 18 seconds [INSERT: Count=21718, Max=78015, Min=1752, Avg=9194.02, 90=14943, 99=32127, 99.9=72127, 99.99=76543] 
+2019-10-06 15:39:44:835 90 sec: 187477 operations; 2284.1 current ops/sec; est completion in 7 second [INSERT: Count=22841, Max=80575, Min=1638, Avg=8760.89, 90=13431, 99=37375, 99.9=70783, 99.99=77631] 
+Could not wait until max specified time, TerminatorThread interrupted.
+2019-10-06 15:39:51:027 96 sec: 200000 operations; 2022.77 current ops/sec; [CLEANUP: Count=20, Max=8, Min=1, Avg=1.75, 90=2, 99=8, 99.9=8, 99.99=8] [INSERT: Count=12523, Max=68351, Min=1789, Avg=8461.75, 90=14583, 99=35839, 99.9=51263, 99.99=64927] 
+[OVERALL], RunTime(ms), 96191
+[OVERALL], Throughput(ops/sec), 2079.196598434365
+[TOTAL_GCS_G1_Young_Generation], Count, 226
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 479
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.4979675853250304
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 226
+[TOTAL_GC_TIME], Time(ms), 479
+[TOTAL_GC_TIME_%], Time(%), 0.4979675853250304
+[CLEANUP], Operations, 20
+[CLEANUP], AverageLatency(us), 1.75
+[CLEANUP], MinLatency(us), 1
+[CLEANUP], MaxLatency(us), 8
+[CLEANUP], 50thPercentileLatency(us), 1
+[CLEANUP], 90thPercentileLatency(us), 2
+[CLEANUP], 95thPercentileLatency(us), 2
+[CLEANUP], 99thPercentileLatency(us), 8
+[INSERT], Operations, 200000
+[INSERT], AverageLatency(us), 9479.58202
+[INSERT], MinLatency(us), 1426
+[INSERT], MaxLatency(us), 152831
+[INSERT], 50thPercentileLatency(us), 8075
+[INSERT], 90thPercentileLatency(us), 15935
+[INSERT], 95thPercentileLatency(us), 22303
+[INSERT], 99thPercentileLatency(us), 39583
+[INSERT], Return=OK, 200000
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+java -cp ./neo4j/src/main/java/com/yahoo/ycsb/webservice/neo4j/target.classes:/root/bachelor_toolkit/neo4j/conf:/root/bachelor_toolkit/neo4j/target/neo4j-binding-0.17.0-SNAPSHOT.jar:/root/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.4/HdrHistogram-2.1.4.jar:/root/.m2/repository/org/glassfish/hk2/external/javax.inject/2.2.0/javax.inject-2.2.0.jar:/root/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/root/.m2/repository/com/github/stefanbirkner/system-rules/1.16.0/system-rules-1.16.0.jar:/root/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.4/jackson-core-asl-1.9.4.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-server/2.6/jersey-server-2.6.jar:/root/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/root/.m2/repository/org/glassfish/hk2/hk2-api/2.2.0/hk2-api-2.2.0.jar:/root/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar:/root/.m2/repository/org/glassfish/hk2/hk2-locator/2.2.0/hk2-locator-2.2.0.jar:/root/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.4/jackson-mapper-asl-1.9.4.jar:/root/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.6/jersey-guava-2.6.jar:/root/.m2/repository/org/glassfish/hk2/external/aopalliance-repackaged/2.2.0/aopalliance-repackaged-2.2.0.jar:/root/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar:/root/.m2/repository/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar:/root/.m2/repository/org/apache/htrace/htrace-core4/4.1.0-incubating/htrace-core4-4.1.0-incubating.jar:/root/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/root/.m2/repository/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar:/root/bachelor_toolkit/core/target/core-0.17.0-SNAPSHOT.jar:/root/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-client/2.6/jersey-client-2.6.jar:/root/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/root/.m2/repository/org/glassfish/hk2/hk2-utils/2.2.0/hk2-utils-2.2.0.jar:/root/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/root/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/root/.m2/repository/org/glassfish/jersey/containers/jersey-container-servlet-core/2.6/jersey-container-servlet-core-2.6.jar:/root/.m2/repository/org/glassfish/jersey/core/jersey-common/2.6/jersey-common-2.6.jar:/root/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar com.yahoo.ycsb.Client -db com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient -s -p table=post -p recordcount=1000000 -P ./workloads/workload_social_neo4j -load
+Command line: -db com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient -s -p table=post -p recordcount=1000000 -P ./workloads/workload_social_neo4j -load
+YCSB Client 0.17.0-SNAPSHOT
+
+Loading workload...
+Starting test.
+Maximum execution time specified as: 36000 secs
+2019-10-06 15:40:00:442 0 sec: 0 operations; est completion in 0 second 
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2019-10-06 15:40:10:323 10 sec: 152 operations; 15.2 current ops/sec; est completion in 18 hours 16 minutes [INSERT: Count=153, Max=2811903, Min=270080, Avg=1110659.35, 90=2082815, 99=2482175, 99.9=2811903, 99.99=2811903] 
+2019-10-06 15:40:20:323 20 sec: 317 operations; 16.5 current ops/sec; est completion in 17 hours 31 minutes [INSERT: Count=164, Max=3274751, Min=303360, Avg=1221898.93, 90=2766847, 99=3088383, 99.9=3274751, 99.99=3274751] 
+2019-10-06 15:40:30:323 30 sec: 488 operations; 17.1 current ops/sec; est completion in 17 hours 4 minutes [INSERT: Count=171, Max=4098047, Min=267520, Avg=1135711.06, 90=3383295, 99=3932159, 99.9=4098047, 99.99=4098047] 
+2019-10-06 15:40:40:323 40 sec: 658 operations; 17 current ops/sec; est completion in 16 hours 52 minutes [INSERT: Count=170, Max=3725311, Min=210176, Avg=1231607.34, 90=3237887, 99=3586047, 99.9=3725311, 99.99=3725311] 
+2019-10-06 15:40:50:323 50 sec: 829 operations; 17.1 current ops/sec; est completion in 16 hours 44 minutes [INSERT: Count=171, Max=2785279, Min=281088, Avg=1181279.81, 90=2281471, 99=2656255, 99.9=2785279, 99.99=2785279] 
+2019-10-06 15:41:00:323 60 sec: 1004 operations; 17.5 current ops/sec; est completion in 16 hours 35 minutes [INSERT: Count=175, Max=2291711, Min=245120, Avg=1151479.59, 90=1965055, 99=2226175, 99.9=2291711, 99.99=2291711] 
+2019-10-06 15:41:10:323 70 sec: 1176 operations; 17.2 current ops/sec; est completion in 16 hours 30 minutes [INSERT: Count=172, Max=2478079, Min=266752, Avg=1138952.19, 90=2197503, 99=2457599, 99.9=2478079, 99.99=2478079] 
+2019-10-06 15:41:20:323 80 sec: 1351 operations; 17.5 current ops/sec; est completion in 16 hours 25 minutes [INSERT: Count=175, Max=2975743, Min=208640, Avg=1120513.46, 90=2600959, 99=2879487, 99.9=2975743, 99.99=2975743] 
+2019-10-06 15:41:30:323 90 sec: 1521 operations; 17 current ops/sec; est completion in 16 hours 24 minutes [INSERT: Count=170, Max=3350527, Min=239872, Avg=1227751.53, 90=2748415, 99=3289087, 99.9=3350527, 99.99=3350527] 
+2019-10-06 15:41:40:323 100 sec: 1690 operations; 16.9 current ops/sec; est completion in 16 hours 24 minutes [INSERT: Count=169, Max=2705407, Min=281856, Avg=1139304.52, 90=2142207, 99=2611199, 99.9=2705407, 99.99=2705407] 
+2019-10-06 15:41:50:323 110 sec: 1860 operations; 17 current ops/sec; est completion in 16 hours 23 minutes [INSERT: Count=170, Max=3753983, Min=293376, Avg=1161355.29, 90=3067903, 99=3602431, 99.9=3753983, 99.99=3753983] 
+2019-10-06 15:42:00:323 120 sec: 2032 operations; 17.2 current ops/sec; est completion in 16 hours 22 minutes [INSERT: Count=172, Max=4382719, Min=248704, Avg=1173959.81, 90=3725311, 99=4227071, 99.9=4382719, 99.99=4382719] 
+2019-10-06 15:42:10:323 130 sec: 2204 operations; 17.2 current ops/sec; est completion in 16 hours 20 minutes [INSERT: Count=172, Max=4579327, Min=281344, Avg=1178642.6, 90=3237887, 99=4386815, 99.9=4579327, 99.99=4579327] 
+2019-10-06 15:42:20:323 140 sec: 2377 operations; 17.3 current ops/sec; est completion in 16 hours 19 minutes [INSERT: Count=173, Max=3373055, Min=252288, Avg=1135460.25, 90=2758655, 99=3246079, 99.9=3373055, 99.99=3373055] 
+2019-10-06 15:42:30:323 150 sec: 2548 operations; 17.1 current ops/sec; est completion in 16 hours 18 minutes [INSERT: Count=171, Max=3385343, Min=258048, Avg=1194297.26, 90=2828287, 99=3256319, 99.9=3385343, 99.99=3385343] 
+2019-10-06 15:42:40:323 160 sec: 2718 operations; 17 current ops/sec; est completion in 16 hours 18 minutes [INSERT: Count=170, Max=3237887, Min=280320, Avg=1159821.55, 90=2559999, 99=3141631, 99.9=3237887, 99.99=3237887] 
+2019-10-06 15:42:50:323 170 sec: 2889 operations; 17.1 current ops/sec; est completion in 16 hours 17 minutes [INSERT: Count=171, Max=3706879, Min=243200, Avg=1082966.46, 90=2572287, 99=3203071, 99.9=3706879, 99.99=3706879] 
+2019-10-06 15:43:00:323 180 sec: 3060 operations; 17.1 current ops/sec; est completion in 16 hours 17 minutes [INSERT: Count=171, Max=4136959, Min=220288, Avg=1263354.76, 90=3573759, 99=3962879, 99.9=4136959, 99.99=4136959] 
+2019-10-06 15:43:10:323 190 sec: 3229 operations; 16.9 current ops/sec; est completion in 16 hours 17 minutes [INSERT: Count=169, Max=2793471, Min=290560, Avg=1186144.19, 90=2367487, 99=2613247, 99.9=2793471, 99.99=2793471] 
+2019-10-06 15:43:20:323 200 sec: 3400 operations; 17.1 current ops/sec; est completion in 16 hours 17 minutes [INSERT: Count=171, Max=4102143, Min=268032, Avg=1156759.2, 90=2779135, 99=3966975, 99.9=4102143, 99.99=4102143] 
+2019-10-06 15:43:30:323 210 sec: 3568 operations; 16.8 current ops/sec; est completion in 16 hours 17 minutes [INSERT: Count=168, Max=4034559, Min=260480, Avg=1112249.52, 90=2893823, 99=3399679, 99.9=4034559, 99.99=4034559] 
+2019-10-06 15:43:40:323 220 sec: 3711 operations; 14.3 current ops/sec; est completion in 16 hours 24 minutes [INSERT: Count=143, Max=6619135, Min=286464, Avg=1526741.03, 90=4624383, 99=6250495, 99.9=6619135, 99.99=6619135] 
+2019-10-06 15:43:50:323 230 sec: 3855 operations; 14.4 current ops/sec; est completion in 16 hours 30 minutes [INSERT: Count=144, Max=4403199, Min=274944, Avg=1366946.67, 90=3418111, 99=4349951, 99.9=4403199, 99.99=4403199] 
+2019-10-06 15:44:00:323 240 sec: 3999 operations; 14.4 current ops/sec; est completion in 16 hours 36 minutes [INSERT: Count=144, Max=3944447, Min=370944, Avg=1331453.33, 90=3258367, 99=3627007, 99.9=3944447, 99.99=3944447] 
+2019-10-06 15:44:10:323 250 sec: 4146 operations; 14.7 current ops/sec; est completion in 16 hours 40 minutes [INSERT: Count=147, Max=5324799, Min=287232, Avg=1342946.39, 90=4034559, 99=5218303, 99.9=5324799, 99.99=5324799] 
+2019-10-06 15:44:20:323 260 sec: 4293 operations; 14.7 current ops/sec; est completion in 16 hours 45 minutes [INSERT: Count=147, Max=4800511, Min=303616, Avg=1460756.9, 90=3823615, 99=4763647, 99.9=4800511, 99.99=4800511] 
+2019-10-06 15:44:30:323 270 sec: 4443 operations; 15 current ops/sec; est completion in 16 hours 48 minutes [INSERT: Count=150, Max=5545983, Min=232448, Avg=1146310.4, 90=2686975, 99=5119999, 99.9=5545983, 99.99=5545983] 
+2019-10-06 15:44:40:323 280 sec: 4585 operations; 14.2 current ops/sec; est completion in 16 hours 53 minutes [INSERT: Count=142, Max=5537791, Min=236544, Avg=1562722.7, 90=3172351, 99=5488639, 99.9=5537791, 99.99=5537791] 
+2019-10-06 15:44:50:323 290 sec: 4741 operations; 15.6 current ops/sec; est completion in 16 hours 54 minutes [INSERT: Count=156, Max=3651583, Min=204288, Avg=1286395.49, 90=2719743, 99=3450879, 99.9=3651583, 99.99=3651583] 
+2019-10-06 15:45:00:323 300 sec: 4894 operations; 15.3 current ops/sec; est completion in 16 hours 56 minutes [INSERT: Count=153, Max=3938303, Min=282368, Avg=1305456.1, 90=3211263, 99=3747839, 99.9=3938303, 99.99=3938303] 
+2019-10-06 15:45:10:323 310 sec: 5037 operations; 14.3 current ops/sec; est completion in 17 hours [INSERT: Count=143, Max=3020799, Min=253312, Avg=1379972.03, 90=2748415, 99=2910207, 99.9=3020799, 99.99=3020799] 
+2019-10-06 15:45:20:323 320 sec: 5206 operations; 16.9 current ops/sec; est completion in 16 hours 59 minutes [INSERT: Count=169, Max=4227071, Min=222720, Avg=1161059.6, 90=2981887, 99=4167679, 99.9=4227071, 99.99=4227071] 
+2019-10-06 15:45:30:323 330 sec: 5379 operations; 17.3 current ops/sec; est completion in 16 hours 57 minutes [INSERT: Count=173, Max=4399103, Min=248448, Avg=1208079.91, 90=3538943, 99=4366335, 99.9=4399103, 99.99=4399103] 
+2019-10-06 15:45:40:323 340 sec: 5542 operations; 16.3 current ops/sec; est completion in 16 hours 56 minutes [INSERT: Count=163, Max=3121151, Min=278272, Avg=1186383.31, 90=2693119, 99=3047423, 99.9=3121151, 99.99=3121151] 
+2019-10-06 15:45:50:323 350 sec: 5693 operations; 15.1 current ops/sec; est completion in 16 hours 58 minutes [INSERT: Count=151, Max=5652479, Min=284416, Avg=1306977.48, 90=3948543, 99=5439487, 99.9=5652479, 99.99=5652479] 
+2019-10-06 15:46:00:323 360 sec: 5838 operations; 14.5 current ops/sec; est completion in 17 hours 1 minute [INSERT: Count=145, Max=4820991, Min=323584, Avg=1406406.62, 90=3786751, 99=4722687, 99.9=4820991, 99.99=4820991] 
+2019-10-06 15:46:10:323 370 sec: 5990 operations; 15.2 current ops/sec; est completion in 17 hours 3 minutes [INSERT: Count=152, Max=3991551, Min=279040, Avg=1332554.95, 90=3000319, 99=3471359, 99.9=3991551, 99.99=3991551] 
+2019-10-06 15:46:20:323 380 sec: 6158 operations; 16.8 current ops/sec; est completion in 17 hours 2 minutes [INSERT: Count=168, Max=3368959, Min=262656, Avg=1196892.19, 90=2414591, 99=3213311, 99.9=3368959, 99.99=3368959] 
+2019-10-06 15:46:30:323 390 sec: 6324 operations; 16.6 current ops/sec; est completion in 17 hours 1 minute [INSERT: Count=166, Max=5705727, Min=273152, Avg=1202485.98, 90=3997695, 99=5640191, 99.9=5705727, 99.99=5705727] 
+2019-10-06 15:46:40:323 400 sec: 6491 operations; 16.7 current ops/sec; est completion in 17 hours [INSERT: Count=167, Max=3495935, Min=234496, Avg=1139386.63, 90=2734079, 99=3330047, 99.9=3495935, 99.99=3495935] 
+2019-10-06 15:46:50:323 410 sec: 6663 operations; 17.2 current ops/sec; est completion in 16 hours 58 minutes [INSERT: Count=172, Max=5701631, Min=204160, Avg=1226059.53, 90=3682303, 99=5468159, 99.9=5701631, 99.99=5701631] 
+2019-10-06 15:47:00:323 420 sec: 6825 operations; 16.2 current ops/sec; est completion in 16 hours 58 minutes [INSERT: Count=162, Max=3751935, Min=272896, Avg=1195750.72, 90=2920447, 99=3583999, 99.9=3751935, 99.99=3751935] 
+2019-10-06 15:47:10:323 430 sec: 6993 operations; 16.8 current ops/sec; est completion in 16 hours 57 minutes [INSERT: Count=168, Max=3602431, Min=275712, Avg=1236154.67, 90=2709503, 99=3395583, 99.9=3602431, 99.99=3602431] 
+2019-10-06 15:47:20:323 440 sec: 7161 operations; 16.8 current ops/sec; est completion in 16 hours 56 minutes [INSERT: Count=168, Max=2930687, Min=337152, Avg=1179181.71, 90=2426879, 99=2873343, 99.9=2930687, 99.99=2930687] 
+2019-10-06 15:47:30:323 450 sec: 7332 operations; 17.1 current ops/sec; est completion in 16 hours 55 minutes [INSERT: Count=171, Max=2566143, Min=284160, Avg=1200673.68, 90=2312191, 99=2521087, 99.9=2566143, 99.99=2566143] 
+2019-10-06 15:47:40:323 460 sec: 7499 operations; 16.7 current ops/sec; est completion in 16 hours 54 minutes [INSERT: Count=167, Max=2738175, Min=263936, Avg=1176789.08, 90=2375679, 99=2650111, 99.9=2738175, 99.99=2738175] 
+2019-10-06 15:47:50:323 470 sec: 7668 operations; 16.9 current ops/sec; est completion in 16 hours 53 minutes [INSERT: Count=169, Max=3100671, Min=216576, Avg=1180518.25, 90=2770943, 99=3051519, 99.9=3100671, 99.99=3100671] 
+2019-10-06 15:48:00:323 480 sec: 7839 operations; 17.1 current ops/sec; est completion in 16 hours 52 minutes [INSERT: Count=171, Max=3831807, Min=217984, Avg=1129937.96, 90=3225599, 99=3641343, 99.9=3831807, 99.99=3831807] 
+2019-10-06 15:48:10:323 490 sec: 8012 operations; 17.3 current ops/sec; est completion in 16 hours 51 minutes [INSERT: Count=173, Max=3618815, Min=233600, Avg=1167435.47, 90=3213311, 99=3545087, 99.9=3618815, 99.99=3618815] 
+2019-10-06 15:48:20:323 500 sec: 8180 operations; 16.8 current ops/sec; est completion in 16 hours 50 minutes [INSERT: Count=168, Max=3684351, Min=245888, Avg=1225782.48, 90=2301951, 99=3657727, 99.9=3684351, 99.99=3684351] 
+2019-10-06 15:48:30:323 510 sec: 8347 operations; 16.7 current ops/sec; est completion in 16 hours 49 minutes [INSERT: Count=167, Max=2979839, Min=252160, Avg=1162661.17, 90=2631679, 99=2955263, 99.9=2979839, 99.99=2979839] 
+2019-10-06 15:48:40:323 520 sec: 8515 operations; 16.8 current ops/sec; est completion in 16 hours 49 minutes [INSERT: Count=168, Max=3395583, Min=235648, Avg=1184770.29, 90=2977791, 99=3325951, 99.9=3395583, 99.99=3395583] 
+2019-10-06 15:48:50:323 530 sec: 8663 operations; 14.8 current ops/sec; est completion in 16 hours 50 minutes [INSERT: Count=148, Max=4607999, Min=279808, Avg=1289414.92, 90=2914303, 99=4382719, 99.9=4607999, 99.99=4607999] 
+2019-10-06 15:49:00:323 540 sec: 11349 operations; 268.6 current ops/sec; est completion in 13 hours 4 minutes [INSERT: Count=2687, Max=4997119, Min=7524, Avg=86671.48, 90=112447, 99=309503, 99.9=4587519, 99.99=4997119] 
+2019-10-06 15:49:10:323 550 sec: 14046 operations; 269.7 current ops/sec; est completion in 10 hours 43 minutes [INSERT: Count=2696, Max=171263, Min=7520, Avg=73993.59, 90=113535, 99=142975, 99.9=159743, 99.99=171263] 
+2019-10-06 15:49:20:323 560 sec: 16294 operations; 224.8 current ops/sec; est completion in 9 hours 23 minutes [INSERT: Count=2248, Max=217855, Min=11848, Avg=88840.11, 90=139391, 99=178303, 99.9=197887, 99.99=217855] 
+2019-10-06 15:49:30:323 570 sec: 18003 operations; 170.9 current ops/sec; est completion in 8 hours 38 minutes [INSERT: Count=1709, Max=291839, Min=12976, Avg=116636.82, 90=201087, 99=260863, 99.9=288767, 99.99=291839] 
+2019-10-06 15:49:40:323 580 sec: 19548 operations; 154.5 current ops/sec; est completion in 8 hours 4 minutes [INSERT: Count=1545, Max=348415, Min=13080, Avg=130155.32, 90=224767, 99=297983, 99.9=323327, 99.99=348415] 
+2019-10-06 15:49:50:323 590 sec: 21216 operations; 166.8 current ops/sec; est completion in 7 hours 33 minutes [INSERT: Count=1668, Max=301567, Min=15856, Avg=119760.75, 90=186367, 99=260863, 99.9=291327, 99.99=301567] 
+2019-10-06 15:50:00:323 600 sec: 22843 operations; 162.7 current ops/sec; est completion in 7 hours 7 minutes [INSERT: Count=1627, Max=289023, Min=12840, Avg=122623.7, 90=192767, 99=246143, 99.9=272895, 99.99=289023] 
+2019-10-06 15:50:10:323 610 sec: 25927 operations; 308.4 current ops/sec; est completion in 6 hours 21 minutes [INSERT: Count=3084, Max=334591, Min=2306, Avg=65342.98, 90=185855, 99=269567, 99.9=314111, 99.99=334591] 
+2019-10-06 15:50:20:323 620 sec: 43285 operations; 1735.8 current ops/sec; est completion in 3 hours 48 minutes [INSERT: Count=17358, Max=155903, Min=1945, Avg=11509.32, 90=19119, 99=46463, 99.9=97215, 99.99=120639] 
+2019-10-06 15:50:30:323 630 sec: 61101 operations; 1781.6 current ops/sec; est completion in 2 hours 41 minutes [INSERT: Count=17816, Max=66943, Min=1910, Avg=11224.45, 90=18799, 99=39647, 99.9=56959, 99.99=63935] 
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
+[WARN]  Running against a source checkout. In order to get our runtime dependencies we'll have to invoke Maven. Depending on the state of your system, this may take ~30-45 seconds
+[DEBUG]  Running 'mvn -pl com.yahoo.ycsb:neo4j-binding -am package -DskipTests dependency:build-classpath -DincludeScope=compile -Dmdep.outputFilterFile=true'
