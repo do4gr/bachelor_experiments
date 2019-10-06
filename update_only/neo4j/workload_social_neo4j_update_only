@@ -35,7 +35,7 @@ insert.createAndConnectSingleLike.proportion=0.3
 insert.createAndConnectSingleComment.proportion=0.6
 
 readproportion=1
-read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_event]
+read.queries=[userByIdWithPostsAndCommentsAndAuthors_user,groupByIdWithMemberIds_group,postByIdWithFirstTenComments_post]
 read.userByIdWithPostsAndCommentsAndAuthors.proportion=0.1
 read.groupByIdWithMemberIds.proportion=0.4
 read.postByIdWithFirstTenComments.proportion=0.5
@@ -49,7 +49,7 @@ update.updateCommentByIdSetContent.proportion=0.6
 # Header
 requestdistribution=uniform
 operationcount=10000000
-maxexecutiontime=300
+maxexecutiontime=100
 
 # System Specific Properties
 db=com.yahoo.ycsb.webservice.neo4j.social.Neo4jClient

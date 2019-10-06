@@ -1,0 +1,30 @@
+Still waiting for thread Thread-13 to complete. Workload status: true
+Still waiting for thread Thread-13 to complete. Workload status: true
+[OVERALL], RunTime(ms), 106849
+[OVERALL], Throughput(ops/sec), 2.0776984342389726
+[TOTAL_GCS_G1_Young_Generation], Count, 5
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 39
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.036500107628522495
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 5
+[TOTAL_GC_TIME], Time(ms), 39
+[TOTAL_GC_TIME_%], Time(%), 0.036500107628522495
+[READ], Operations, 222
+[READ], AverageLatency(us), 9315461.765765766
+[READ], MinLatency(us), 2107392
+[READ], MaxLatency(us), 34144255
+[READ], 50thPercentileLatency(us), 7786495
+[READ], 90thPercentileLatency(us), 16678911
+[READ], 95thPercentileLatency(us), 20824063
+[READ], 99thPercentileLatency(us), 28262399
+[READ], Return=OK, 222
+[CLEANUP], Operations, 20
+[CLEANUP], AverageLatency(us), 0.8
+[CLEANUP], MinLatency(us), 0
+[CLEANUP], MaxLatency(us), 4
+[CLEANUP], 50thPercentileLatency(us), 1
+[CLEANUP], 90thPercentileLatency(us), 1
+[CLEANUP], 95thPercentileLatency(us), 1
+[CLEANUP], 99thPercentileLatency(us), 4
