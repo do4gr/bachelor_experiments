@@ -7,7 +7,8 @@ This repository contains the workload parameter files as they were configured fo
 ├── load_phase
 │   ├── neo4j
 │   │   ├── workload_social_neo4j_load
-│   │   └── workload_social_neo4j_load.log
+│   │   ├── workload_social_neo4j_load.log
+│   │   └── workload_social_neo4j_load_without_indexes.log
 │   └── prisma_postgres
 │       ├── workload_social_prisma_load
 │       └── workload_social_prisma_load.log
@@ -36,7 +37,9 @@ This repository contains the workload parameter files as they were configured fo
 ├── read_write
 │   ├── neo4j
 │   │   ├── workload_social_neo4j_read_write
-│   │   └── workload_social_neo4j_read_write.log
+│   │   ├── workload_social_neo4j_read_write_run1.log
+│   │   ├── workload_social_neo4j_read_write_run2.log
+│   │   └── workload_social_neo4j_read_write_run3.log
 │   └── prisma_postgres
 │       ├── workload_social_prisma_read_write
 │       ├── workload_social_prisma_read_write_run1.log
